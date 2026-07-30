@@ -53,7 +53,7 @@
   display: inline-block;
   z-index: 1;
   overflow: visible;
-  animation: kiwi-float 6s ease-in-out infinite;
+  animation: none;
 }
 
 .hero-logo-glow {
@@ -61,7 +61,7 @@
   left: 50%;
   top: 50%;
   width: 180%;
-  height: 180%;
+  aspect-ratio: 1;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: radial-gradient(
@@ -79,6 +79,8 @@
 .hero-logo {
   position: relative;
   z-index: 2;
+  display: block;
+  animation: kiwi-float 6s ease-in-out infinite;
 }
     .hero img {
       width: 10rem;
